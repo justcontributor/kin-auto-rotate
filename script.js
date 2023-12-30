@@ -30,7 +30,7 @@ SOFTWARE.
 // @version             0.1.0
 // @license             MIT License
 //
-// @grant       none
+// @grant               none
 // @author              justcontributor
 // @match               *://kin.naver.com/roulette/home.naver
 // @icon                https://kin.naver.com/favicon.ico
