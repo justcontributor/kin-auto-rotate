@@ -8,7 +8,7 @@
 
 1. 우선 Violentmonkey([Chrome](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) / [Firefox](https://addons.mozilla.org/ko/firefox/addon/violentmonkey/))나 Tampermonkey([Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [Firefox](https://addons.mozilla.org/ko/firefox/addon/tampermonkey/)) 등 유저스크립트 확장 프로그램을 설치합니다.
 1. 이후 [여기](https://github.com/justcontributor/kin-auto-rotate/raw/main/script.user.js)를 눌러 확장 프로그램 설치를 진행합니다.
-1. 새로 YouTube 탭을 열거나 기존 YouTube 탭을 새로고침하면 확장 프로그램이 적용됩니다!
+1. 새로 지식iN 탭을 열고 룰렛 페이지에 접속하거나 기존 지식iN 룰렛 탭을 새로고침하면 유저스크립트가 적용됩니다!
 
 ## 사용
 
