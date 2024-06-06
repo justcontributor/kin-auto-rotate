@@ -2,7 +2,7 @@
 
 MIT License
 
-Copyright 2023 justcontributor
+Copyright 2024 justcontributor
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,37 +26,26 @@ SOFTWARE.
 
 // ==UserScript==
 // @name                지식iN 룰렛 자동 회전
-// @namespace           http://tampermonkey.net/
-// @version             0.1.0
+// @namespace       https://github.com/justcontributor/kin-auto-rotate
+// @homepageURL     https://github.com/justcontributor/kin-auto-rotate
+// @supportURL      https://github.com/justcontributor/kin-auto-rotate/issues
+// @updateURL       https://github.com/justcontributor/kin-auto-rotate/raw/main/script.user.js
+// @downloadURL     https://github.com/justcontributor/kin-auto-rotate/raw/main/script.user.js
 // @license             MIT License
-//
-// @grant               none
+// @version             1.0
+// @description         Automatically rotates the roulette in kin.naver.com.
+// @description:ko      지식iN 룰렛을 자동으로 돌려주는 유저스크립트
 // @author              justcontributor
 // @match               *://kin.naver.com/roulette/home.naver
 // @icon                https://kin.naver.com/favicon.ico
+// @grant               none
 // @run-at              document-start
 // @inject-into         page
-//
-// @compatible          firefox Violentmonkey
-// @compatible          firefox Tampermonkey
-// @compatible          firefox Firemonkey
-// @compatible          chrome Violentmonkey
-// @compatible          chrome Tampermonkey
-// @compatible          opera Violentmonkey
-// @compatible          opera Tampermonkey
-// @compatible          safari Stay
-// @compatible          edge Violentmonkey
-// @compatible          edge Tampermonkey
-// @compatible          brave Violentmonkey
-// @compatible          brave Tampermonkey
-//
-// @description         Automatically rotates the roulette in kin.naver.com.
-// @description:ko      지식iN 룰렛을 자동으로 돌려주는 스크립트입니다.
-//
-// @supportURL https://github.com/justcontributor/kin-auto-rotate/issues
-// @downloadURL https://update.greasyfork.org/scripts/468740/Restore%20YouTube%20Username%20from%20Handle%20to%20Custom.user.js
-// @updateURL https://update.greasyfork.org/scripts/468740/Restore%20YouTube%20Username%20from%20Handle%20to%20Custom.meta.js
 // ==/UserScript==
+
+window.alert = () => {
+  location.href = "https://kin.naver.com";
+};
 
 setInterval(() => {
   if (!window.nhn.isLogin) return false;
